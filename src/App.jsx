@@ -13,9 +13,9 @@ function App() {
     <>
       <div className="flex flex-col w-full sm:max-w-[800px] mx-auto justify-center text-slate-300 p-8">
         <h1 className="text-center mb-16 text-6xl font-semibold">Text truncation</h1>
-        <div className='grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 items-center w-full rounded-lg shadow-lg bg-[#0A1D56] h-[100%]'>
+        <div className='grid grid-cols-1 grid-rows-1/3 sm:grid-rows-1 sm:grid-cols-2 items-center w-full rounded-lg shadow-lg bg-[#0A1D56] h-[100%]'>
           <div
-            className="bg-[url('./assets/top.jpg')] sm:bg-[url('./assets/side.jpg')] w-full bg-cover h-full bg-center"
+            className="bg-[url('./assets/top.jpg')] sm:bg-[url('./assets/side.jpg')] w-full bg-cover h-[150px] sm:h-full bg-center"
           ></div>
           <div className='p-4'>
             <div className='flex flex-col space-y-4 '>
