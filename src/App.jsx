@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col sm:h-screen w-full sm:max-w-[800px] mx-auto justify-center text-slate-300 p-8">
+      <div className="flex flex-col w-full sm:max-w-[800px] mx-auto justify-center text-slate-300 p-8">
         <h1 className="text-center mb-16 text-6xl font-semibold">Text truncation</h1>
         <div className='grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 items-center w-full rounded-lg shadow-lg bg-[#0A1D56] h-[100%]'>
           <div
